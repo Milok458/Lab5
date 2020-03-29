@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Event delegation practice</title>
+    <link href="./css/index.css" rel="stylesheet" type="text/css" />
+    <title>
+      Shopping List
+    </title>
+  </head>
+  <body>
+    <header>
+      <h1>
+        Shopping List
+      </h1>
+    </header>
+    <main class="container">
+      <form onsubmit="return false">
+        <label>
+          Add an item
+        </label>
+        <input type="text" placeholder="e.g., broccoli" id="tfName">
+        <button type="submit" class="itemBtn">
+          Add item
+        </button>
+      </form>
+    </main>
+    <section class="results">
+      <ul class="list">
+      </ul>
+    </section>
+    <script src="./js/index.js"></script>
+  </body>
+</html>

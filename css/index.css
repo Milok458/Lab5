@@ -1,0 +1,25 @@
+.listItem{
+    color: gray;
+    border: 1px solid black;
+    width: 40%;
+    margin-bottom: 15px;
+}
+
+.checkBtn{
+    margin-bottom: 21px;
+    margin-left: 15px;
+}
+
+.itemName{
+    margin-left: 15px;
+}
+
+.list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin-bottom: 20px;
+}
